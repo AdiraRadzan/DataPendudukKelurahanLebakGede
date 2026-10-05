@@ -1,0 +1,4 @@
+.toast-stack{position:fixed;top:18px;right:18px;z-index:200;display:flex;flex-direction:column;gap:10px;max-width:340px}
+.toast{background:#fff;color:#101828;padding:12px 16px;border-radius:10px;font-size:13.5px;border:1px solid #E4E7EC;border-left:4px solid #1D4E89;box-shadow:0 8px 24px rgba(16,24,40,.12);animation:ti .18s ease-out}
+.toast.success{border-left-color:#127A4B}.toast.error{border-left-color:#B42318}
+@keyframes ti{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
